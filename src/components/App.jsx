@@ -5,10 +5,10 @@ import ContactForm from './ContactForm';
 export default function App() {
   return (
     <div>
-      <Section>
+      <Section title="Add contact">
         <ContactForm />
       </Section>
-      <Section>
+      <Section title="Contacts">
         <ContactList />
       </Section>
     </div>
