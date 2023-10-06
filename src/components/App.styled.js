@@ -5,6 +5,7 @@ export const AppContainer = styled.div`
   padding: 32px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
