@@ -27,7 +27,7 @@ export default function ContactForm() {
 
   return (
     <StyledForm onSubmit={onFormSubmit}>
-      <input type="text" name="name" />
+      <input type="text" name="name" placeholder="Name" />
       <PatternFormat
         format="+38 (###) ### ####"
         allowEmptyFormatting
