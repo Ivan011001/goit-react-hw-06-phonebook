@@ -9,12 +9,12 @@ export default function ContactListItem({ contact }) {
   };
 
   return (
-    <div>
+    <>
       <span>{contact.name}</span>
       <span>{contact.tel}</span>
       <button type="button" onClick={() => handleDelete(contact.id)}>
         Delete
       </button>
-    </div>
+    </>
   );
 }
