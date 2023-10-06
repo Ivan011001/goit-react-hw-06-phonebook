@@ -6,6 +6,7 @@ import ContactForm from './ContactForm';
 import { useSelector } from 'react-redux';
 import { getContacts } from 'redux/actions';
 import { AppContainer } from './App.styled';
+import { GlobalStyle } from './GlobalStyles.styled';
 
 export default function App() {
   const contacts = useSelector(getContacts);
@@ -21,6 +22,7 @@ export default function App() {
         </Section>
       )}
       <ToastContainer />
+      <GlobalStyle />
     </AppContainer>
   );
 }
